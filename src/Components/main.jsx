@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Introduction from './Introduction';
 import CarChamp from './Carousel';
 import Concept from './Concept';
-import VideoPlayer from './VideoPlayer';
 import Spotlight from './Spotlight';
 import EndPage from './EndPage';
 import Footer from './Footer';

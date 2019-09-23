@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from '..public/Data/lol-logo.png';
+import logo from "../Data/lol-logo.png";
 
 export default class Spotlight extends Component {
     render() {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import IntroductionBg from '../Data/IntroductionBg.jpg';
 import ModalVideo from './Modal';
 
 
