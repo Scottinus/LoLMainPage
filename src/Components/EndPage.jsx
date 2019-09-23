@@ -12,7 +12,7 @@ export default class EndPage extends Component{
                             <h2>SCHIACCIA I TUOI NEMICI</h2>
                             <h1>DOMINA LA LANDA</h1>
                             <div className="mt-4">
-                   <a href="http://signup.euw.leagueoflegends.com/it" class="cust-btn">PLAY FOR FREE</a>
+                   <a href="http://signup.euw.leagueoflegends.com/it" className="cust-btn">PLAY FOR FREE</a>
                             </div>
                         </div>
                     </div>

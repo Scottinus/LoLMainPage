@@ -116,7 +116,7 @@ class CarChamp extends Component {
           <img src={item.src} width="100%" alt={item.altText} />
 
         
- <div class="carousel-caption d-none d-md-block" captionText={item.caption} captionHeader={item.caption} >
+ <div className="carousel-caption d-none d-md-block" captiontext={item.caption} captionheader={item.caption} >
              <h3>{item.title}</h3>
              <p>{item.description}</p>
           </div>
@@ -137,7 +137,7 @@ class CarChamp extends Component {
             return (
               <li
                 key={index}
-                onClick={() => this.goToIndex(index)}
+                onClickHandler={() => this.goToIndex(index)}
                 className={activeIndex === index ? "selection active" : "selection" }
               >
                 <img src={item.icon} className="float-left ml-4 mt-3" width="43px" height="40px"/>
